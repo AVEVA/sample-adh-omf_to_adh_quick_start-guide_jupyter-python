@@ -45,6 +45,7 @@ jobs:
           echo Install pip
           call python -m pip install --upgrade pip
           call pip install nbconvert
+          call pip install pytest
           echo Install requirements
           call pip install -r requirements.txt
           echo Run tests
