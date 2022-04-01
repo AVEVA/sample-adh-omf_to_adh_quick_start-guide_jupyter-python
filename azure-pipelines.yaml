@@ -44,7 +44,10 @@ jobs:
       - script: |
           echo Install pip
           call python -m pip install --upgrade pip
+          echo Install tools
           call pip install nbconvert
+          call pip install requests
+          call pip install unittest
           call pip install pytest
           echo Install requirements
           call pip install -r requirements.txt
