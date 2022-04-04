@@ -39,7 +39,7 @@ jobs:
     steps:
       - template: '/miscellaneous/build_templates/appsettings.yml@templates'
         parameters:
-          secrets: 'ClientId, ClientSecret, TopicName, SubscriptionName, TenantId, NamespaceId, Resource'
+          secrets: 'OMFQuickStartClientId, OMFQuickStartClientSecret, TopicName, SubscriptionName, TenantId, NamespaceId, Resource'
 
       - script: |
           echo Install pip

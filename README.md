@@ -2,7 +2,10 @@
 
 **Version:** 1.0.0
 
-The sample code in this folder demonstrates an example of using OMF to send data into AVEVA Data Hub and the Sequential Data Store (SDS) using Python Jupyter Notebook. In order to run this sample, you need to have [Python](https://www.python.org/downloads/) installed.
+The sample code in this folder demonstrates an example of using OMF to send data into AVEVA Data Hub and the Sequential Data Store (SDS) using Python Jupyter Notebook. In order to run this sample, you need to have [Python](https://www.python.org/downloads/) and [Jupyter](https://jupyter.org/) installed. Once Python is installed, Jupyter can be installed by running the following command:
+```bash
+pip install jupyter
+```
 
 ### Data Example 
 The example in this guide will send data for a drone, including its location, battery, and operating temperature. It will cover how to create the OMF connection along with the appropriate OMF types and containers, and finally send data to an OMF endpoint. Once the data is sent to AVEVA Data Hub it will validate the ingress process by reading the drone data from SDS.
