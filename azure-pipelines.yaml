@@ -36,6 +36,11 @@ jobs:
     pool:
       name: 00-OSIManaged-Containers
       demands: Agent.OS -equals Windows_NT
+    variables:
+      - name: ClientId
+        value: $(OMFQuickStartClientId)
+      - name: ClientSecret
+        value: $(OMFQuickStartClientSecret)
     steps:
       - template: '/miscellaneous/build_templates/appsettings.yml@templates'
         parameters:
