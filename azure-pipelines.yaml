@@ -31,7 +31,7 @@ resources:
 variables:
   - template: '/miscellaneous/build_templates/variables.yml@templates'
   - name: analysisProject
-    value: OMF_to_OCS_Quick_Start
+    value: OMF_to_OCS_Quick_Start_Python
 
 jobs:
   - job: Tests
