@@ -30,6 +30,8 @@ resources:
 
 variables:
   - template: '/miscellaneous/build_templates/variables.yml@templates'
+  - name: analysisProject
+    value: OMF_to_OCS_Quick_Start
 
 jobs:
   - job: Tests
