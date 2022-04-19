@@ -15,6 +15,7 @@ The example in this guide will send data for a drone, including its location, ba
 
 ```json
 {
+    "Resource": "PLACEHOLDER_REPLACE_WITH_RESOURCE",
     "ClientId": "PLACEHOLDER_REPLACE_WITH_CLIENT_ID",
     "ClientSecret": "PLACEHOLDER_REPLACE_WITH_CLIENT_SECRET",
     "TenantId": "PLACEHOLDER_REPLACE_WITH_TENANT_ID",
@@ -28,7 +29,7 @@ The example in this guide will send data for a drone, including its location, ba
 
 | Parameters      | Required | Type           | Description                                                                                                                                                  |
 | --------------- | -------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Resource        | required | string         | The endpoint for ADH of the namespace. If the tenant/namespace is located in NA, it is https://uswe.datahub.connect.aveva.com and if in EMEA, it is https://euno.datahub.connect.aveva.com                                                                                                                                    |
+| Resource        | required | string         | The endpoint for ADH of the namespace. If the namespace is located in NA, it is https://uswe.datahub.connect.aveva.com and if in EMEA, it is https://euno.datahub.connect.aveva.com                                                                                                                                    |
 | ClientId | required | string         | The id of the client credentials client to use                                                                                                        |
 | ClientSecret    | required | string         | The secret of the client credentials client to use                                                                                                                                                 |
 | TenantId    | required | string         | The id of the tenant to use                                                                                                         |
