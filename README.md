@@ -2,6 +2,8 @@
 
 **Version:** 1.1.0
 
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status%2Fproduct-readiness%2FADH%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python?repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=4706&repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)
+
 The sample code in this folder demonstrates an example of using OMF to send data into AVEVA Data Hub and the Sequential Data Store (SDS) using Python Jupyter Notebook. In order to run this sample, you need to have [Python](https://www.python.org/downloads/) installed.
 
 ### Data Example 
