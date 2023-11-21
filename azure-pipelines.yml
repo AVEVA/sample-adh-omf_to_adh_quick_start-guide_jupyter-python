@@ -46,15 +46,10 @@ jobs:
     pool:
       name: ${{ parameters.pool }}
       demands: ${{ parameters.containerDemands }}
-    variables:
-      - name: ClientId
-        value: $(OMFQuickStartClientId)
-      - name: ClientSecret
-        value: $(OMFQuickStartClientSecret)
     steps:
       - template: '/miscellaneous/build_templates/appsettings.yml@templates'
         parameters:
-          secrets: 'OMFQuickStartClientId, OMFQuickStartClientSecret, TopicName, SubscriptionName, TenantId, NamespaceId, Resource'
+          secrets: 'ClientId, ClientSecret, OMFConnectionName, TenantId, NamespaceId, Resource'
 
       - script: |
           echo Install pip
