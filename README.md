@@ -1,6 +1,6 @@
 # OMF to Data Hub Quick Start Guide
 
-**Version:** 1.1.0
+**Version:** 1.1.1
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status%2Fproduct-readiness%2FADH%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python?repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=4706&repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)
 

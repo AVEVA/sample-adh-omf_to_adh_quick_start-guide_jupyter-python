@@ -1,5 +1,9 @@
 # Version History
 
+## 1.1.1 / 2023-10-13
+
+- Migrate Pipelines
+
 ## 1.1.0 / 2023-05-03
 
 - Removed Topics and subscriptions from code and documentation
