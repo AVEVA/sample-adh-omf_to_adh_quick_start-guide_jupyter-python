@@ -2,12 +2,12 @@
 
 **Version:** 1.1.1
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status%2Fproduct-readiness%2FADH%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python?repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=4706&repoName=osisoft%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)
+[![Build Status](https://dev.azure.com/AVEVA-VSTS/Cloud%20Platform/_apis/build/status%2Fproduct-readiness%2FADH%2FAVEVA.sample-adh-omf_to_adh_quick_start-guide_jupyter-python?repoName=AVEVA%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)](https://dev.azure.com/AVEVA-VSTS/Cloud%20Platform/_build/latest?definitionId=16198&repoName=AVEVA%2Fsample-adh-omf_to_adh_quick_start-guide_jupyter-python&branchName=main)
 
-The sample code in this folder demonstrates an example of using OMF to send data into AVEVA Data Hub and the Sequential Data Store (SDS) using Python Jupyter Notebook. In order to run this sample, you need to have [Python](https://www.python.org/downloads/) installed.
+The sample code in this folder demonstrates an example of using OMF to send data into CONNECT data services and the Sequential Data Store (SDS) using Python Jupyter Notebook. In order to run this sample, you need to have [Python](https://www.python.org/downloads/) installed.
 
 ### Data Example 
-The example in this guide will send data for a drone, including its location, battery, and operating temperature. It will cover how to create the OMF connection along with the appropriate OMF types and containers, and finally send data to an OMF endpoint. Once the data is sent to AVEVA Data Hub it will validate the ingress process by reading the drone data from SDS.
+The example in this guide will send data for a drone, including its location, battery, and operating temperature. It will cover how to create the OMF connection along with the appropriate OMF types and containers, and finally send data to an OMF endpoint. Once the data is sent to CONNECT data services it will validate the ingress process by reading the drone data from SDS.
 
 ### Application Settings Parameters
 
@@ -51,10 +51,10 @@ The example in this guide will send data for a drone, including its location, ba
 
 ## Documentation
 
-The documentation for the various topics and APIs used here can be found at the [AVEVA Data Hub documentation website](https://docs.aveva.com/category/adh-get-started)
+The documentation for the various topics and APIs used here can be found at the [CONNECT data services documentation website](https://docs.aveva.com/category/adh-get-started)
 
 ---
 
-For the main OMF basic samples page [ReadMe](https://github.com/osisoft/OSI-Samples-OMF/blob/main/docs/OMF_BASIC.md)  
-For the main OMF samples page [ReadMe](https://github.com/osisoft/OSI-Samples-OMF)  
-For the main AVEVA samples page [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main OMF basic samples page [ReadMe](https://github.com/AVEVA/AVEVA-Samples-OMF/blob/main/docs/OMF_BASIC.md)  
+For the main OMF samples page [ReadMe](https://github.com/AVEVA/AVEVA-Samples-OMF)  
+For the main AVEVA samples page [ReadMe](https://github.com/AVEVA/AVEVA-Samples)
